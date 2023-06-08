@@ -1,0 +1,31 @@
+<section class="headerContainer">
+  <div class="logo">
+    <h1>TexFlow</h1>
+  </div>
+  <div class="menu">
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="menu">
+      <mat-icon class="menuBtn">menu</mat-icon>
+    </button>
+    <mat-menu class="menuList" #menu="matMenu">
+      <button mat-menu-item routerLink="home">Início</button>
+      <button mat-menu-item routerLink="home">Sobre</button>
+      <button mat-menu-item routerLink="home">Produtos</button>
+      <button mat-menu-item routerLink="home">Contato</button>
+      <button mat-menu-item routerLink="home">Trabalhe Conosco</button>
+    </mat-menu>
+  </div>
+</section>
+<section class="whatsappIcon">
+  <a
+  role="button"
+  aria-label="whatsapp"
+  href="https://api.whatsapp.com/send?phone=5511965868650"
+  target="_blank"
+>
+  <img
+    class="whatsapp-image"
+    src="assets/images/whatsapp.png"
+    aria-hidden="true"
+  />
+</a>
+</section>

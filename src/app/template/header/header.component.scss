@@ -1,0 +1,76 @@
+.headerContainer {
+  width: 100vw;
+  height: 10%;
+  background-color: rgba($color: #ffffff, $alpha: 0.6);
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  .logo {
+    color: #000;
+    margin-left: 24px;
+  }
+  .menu {
+    margin-right: 24px;
+    position: absolute;
+    right: 0;
+  }
+  .menuBtn {
+    color: #000;
+  }
+}
+
+.whatsappIcon {
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  margin: 12px;
+  .whatsapp-image {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+::ng-deep {
+  .mat-mdc-menu-panel.mat-mdc-menu-panel {
+    min-width: 100vw !important;
+    margin-top: 1.2%;
+  }
+  .mdc-menu-surface {
+    background-color: rgba($color: #3f87d5, $alpha: 0.6);
+  }
+  .mdc-list-item__primary-text {
+    color: whitesmoke;
+  }
+  .mat-typography h1 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  ::ng-deep {
+    .mat-mdc-menu-panel.mat-mdc-menu-panel {
+      min-width: 100vw !important;
+      margin-top: 4.7%;
+    }
+  }
+}
+@media (min-width: 600px) and (max-width: 1000px){
+  ::ng-deep {
+    .mat-mdc-menu-panel.mat-mdc-menu-panel {
+      min-width: 100vw !important;
+      margin-top: 2.1%;
+    }
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+  ::ng-deep {
+    .mat-mdc-menu-panel.mat-mdc-menu-panel {
+      min-width: 100vw !important;
+      margin-top: 2.3%;
+    }
+  }
+}

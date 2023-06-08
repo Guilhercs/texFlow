@@ -1,0 +1,15 @@
+.footerContainer {
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(128, 128, 128);
+  bottom: 0;
+  z-index: 200;
+}
+.mediaIcons {
+  padding: 28px;
+  .socialMediaImg {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+  }
+}
